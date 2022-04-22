@@ -2,11 +2,10 @@
 SRC Leak + Nice Token Grabber
 ---
 > proof
-
-[![#1])(https://media.discordapp.net/attachments/967109063848648824/967118068016885760/unknown.png?width=1155&height=607)
-[![#2])(https://cdn.discordapp.com/attachments/809366050067316758/967137009254674462/unknown.png)
-[![#3])(https://cdn.discordapp.com/attachments/809366050067316758/967136250538655814/unknown.png)
-[![#4])(https://media.discordapp.net/attachments/967109063848648824/967114551457882182/unknown.png?width=1080&height=348)
+[![#1](https://media.discordapp.net/attachments/967109063848648824/967118068016885760/unknown.png?width=1155&height=607)
+[![#2](https://cdn.discordapp.com/attachments/809366050067316758/967137009254674462/unknown.png)
+[![#3](https://cdn.discordapp.com/attachments/809366050067316758/967136250538655814/unknown.png)
+[![#4](https://media.discordapp.net/attachments/967109063848648824/967114551457882182/unknown.png?width=1080&height=348)
 [![#5](https://cdn.discordapp.com/attachments/809366050067316758/967136250538655814/unknown.png)
 
 ---
