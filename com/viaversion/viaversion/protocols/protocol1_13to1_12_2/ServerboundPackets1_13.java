@@ -1,0 +1,69 @@
+package com.viaversion.viaversion.protocols.protocol1_13to1_12_2;
+
+import com.viaversion.viaversion.api.protocol.packet.*;
+
+public enum ServerboundPackets1_13 implements ServerboundPacketType
+{
+    TELEPORT_CONFIRM("TELEPORT_CONFIRM", 0), 
+    QUERY_BLOCK_NBT("QUERY_BLOCK_NBT", 1), 
+    CHAT_MESSAGE("CHAT_MESSAGE", 2), 
+    CLIENT_STATUS("CLIENT_STATUS", 3), 
+    CLIENT_SETTINGS("CLIENT_SETTINGS", 4), 
+    TAB_COMPLETE("TAB_COMPLETE", 5), 
+    WINDOW_CONFIRMATION("WINDOW_CONFIRMATION", 6), 
+    CLICK_WINDOW_BUTTON("CLICK_WINDOW_BUTTON", 7), 
+    CLICK_WINDOW("CLICK_WINDOW", 8), 
+    CLOSE_WINDOW("CLOSE_WINDOW", 9), 
+    PLUGIN_MESSAGE("PLUGIN_MESSAGE", 10), 
+    EDIT_BOOK("EDIT_BOOK", 11), 
+    ENTITY_NBT_REQUEST("ENTITY_NBT_REQUEST", 12), 
+    INTERACT_ENTITY("INTERACT_ENTITY", 13), 
+    KEEP_ALIVE("KEEP_ALIVE", 14), 
+    PLAYER_MOVEMENT("PLAYER_MOVEMENT", 15), 
+    PLAYER_POSITION("PLAYER_POSITION", 16), 
+    PLAYER_POSITION_AND_ROTATION("PLAYER_POSITION_AND_ROTATION", 17), 
+    PLAYER_ROTATION("PLAYER_ROTATION", 18), 
+    VEHICLE_MOVE("VEHICLE_MOVE", 19), 
+    STEER_BOAT("STEER_BOAT", 20), 
+    PICK_ITEM("PICK_ITEM", 21), 
+    CRAFT_RECIPE_REQUEST("CRAFT_RECIPE_REQUEST", 22), 
+    PLAYER_ABILITIES("PLAYER_ABILITIES", 23), 
+    PLAYER_DIGGING("PLAYER_DIGGING", 24), 
+    ENTITY_ACTION("ENTITY_ACTION", 25), 
+    STEER_VEHICLE("STEER_VEHICLE", 26), 
+    RECIPE_BOOK_DATA("RECIPE_BOOK_DATA", 27), 
+    RENAME_ITEM("RENAME_ITEM", 28), 
+    RESOURCE_PACK_STATUS("RESOURCE_PACK_STATUS", 29), 
+    ADVANCEMENT_TAB("ADVANCEMENT_TAB", 30), 
+    SELECT_TRADE("SELECT_TRADE", 31), 
+    SET_BEACON_EFFECT("SET_BEACON_EFFECT", 32), 
+    HELD_ITEM_CHANGE("HELD_ITEM_CHANGE", 33), 
+    UPDATE_COMMAND_BLOCK("UPDATE_COMMAND_BLOCK", 34), 
+    UPDATE_COMMAND_BLOCK_MINECART("UPDATE_COMMAND_BLOCK_MINECART", 35), 
+    CREATIVE_INVENTORY_ACTION("CREATIVE_INVENTORY_ACTION", 36), 
+    UPDATE_STRUCTURE_BLOCK("UPDATE_STRUCTURE_BLOCK", 37), 
+    UPDATE_SIGN("UPDATE_SIGN", 38), 
+    ANIMATION("ANIMATION", 39), 
+    SPECTATE("SPECTATE", 40), 
+    PLAYER_BLOCK_PLACEMENT("PLAYER_BLOCK_PLACEMENT", 41), 
+    USE_ITEM("USE_ITEM", 42);
+    
+    private static final ServerboundPackets1_13[] $VALUES;
+    
+    private ServerboundPackets1_13(final String s, final int n) {
+    }
+    
+    @Override
+    public int getId() {
+        return this.ordinal();
+    }
+    
+    @Override
+    public String getName() {
+        return this.name();
+    }
+    
+    static {
+        $VALUES = new ServerboundPackets1_13[] { ServerboundPackets1_13.TELEPORT_CONFIRM, ServerboundPackets1_13.QUERY_BLOCK_NBT, ServerboundPackets1_13.CHAT_MESSAGE, ServerboundPackets1_13.CLIENT_STATUS, ServerboundPackets1_13.CLIENT_SETTINGS, ServerboundPackets1_13.TAB_COMPLETE, ServerboundPackets1_13.WINDOW_CONFIRMATION, ServerboundPackets1_13.CLICK_WINDOW_BUTTON, ServerboundPackets1_13.CLICK_WINDOW, ServerboundPackets1_13.CLOSE_WINDOW, ServerboundPackets1_13.PLUGIN_MESSAGE, ServerboundPackets1_13.EDIT_BOOK, ServerboundPackets1_13.ENTITY_NBT_REQUEST, ServerboundPackets1_13.INTERACT_ENTITY, ServerboundPackets1_13.KEEP_ALIVE, ServerboundPackets1_13.PLAYER_MOVEMENT, ServerboundPackets1_13.PLAYER_POSITION, ServerboundPackets1_13.PLAYER_POSITION_AND_ROTATION, ServerboundPackets1_13.PLAYER_ROTATION, ServerboundPackets1_13.VEHICLE_MOVE, ServerboundPackets1_13.STEER_BOAT, ServerboundPackets1_13.PICK_ITEM, ServerboundPackets1_13.CRAFT_RECIPE_REQUEST, ServerboundPackets1_13.PLAYER_ABILITIES, ServerboundPackets1_13.PLAYER_DIGGING, ServerboundPackets1_13.ENTITY_ACTION, ServerboundPackets1_13.STEER_VEHICLE, ServerboundPackets1_13.RECIPE_BOOK_DATA, ServerboundPackets1_13.RENAME_ITEM, ServerboundPackets1_13.RESOURCE_PACK_STATUS, ServerboundPackets1_13.ADVANCEMENT_TAB, ServerboundPackets1_13.SELECT_TRADE, ServerboundPackets1_13.SET_BEACON_EFFECT, ServerboundPackets1_13.HELD_ITEM_CHANGE, ServerboundPackets1_13.UPDATE_COMMAND_BLOCK, ServerboundPackets1_13.UPDATE_COMMAND_BLOCK_MINECART, ServerboundPackets1_13.CREATIVE_INVENTORY_ACTION, ServerboundPackets1_13.UPDATE_STRUCTURE_BLOCK, ServerboundPackets1_13.UPDATE_SIGN, ServerboundPackets1_13.ANIMATION, ServerboundPackets1_13.SPECTATE, ServerboundPackets1_13.PLAYER_BLOCK_PLACEMENT, ServerboundPackets1_13.USE_ITEM };
+    }
+}

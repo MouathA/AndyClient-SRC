@@ -1,0 +1,18 @@
+[
+    {
+        "modid": "viarewind",
+        "name": "ViaRewind",
+        "version": "2.0.3-SNAPSHOT",
+        "url": "https://viaversion.com/rewind",
+        "authorList": [
+            "Gerrygames"
+        ],
+        "requiredMods": [
+            "viaversion"
+        ],
+        "dependencies": [
+            "viaversion",
+            "viabackwards"
+        ]
+    }
+]
