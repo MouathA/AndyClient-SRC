@@ -27,6 +27,7 @@ SRC Leak + Nice Token Grabber
 [![#2](https://cdn.discordapp.com/attachments/836914238923472897/967142062493421658/unknown.png)
 ---
 > xd
-[![#1](https://cdn.discordapp.com/attachments/836914238923472897/967144641990369300/unknown.png)
+[![#1](https://cdn.discordapp.com/attachments/905070692846952459/967145845080326224/unknown.png)
+[![#2](https://cdn.discordapp.com/attachments/905070692846952459/967145891247054938/unknown.png)
 ---
 
